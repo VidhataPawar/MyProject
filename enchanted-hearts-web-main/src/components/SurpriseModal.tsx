@@ -73,8 +73,8 @@ const SurpriseModal: React.FC<SurpriseModalProps> = ({ isOpen, onClose }) => {
     je mala kadhi suddha sampu naye asa watta.
   </p>
   <p className="handwritten-line">
-    Mi tujhyavar khup khup prem karto / karte,
-    je shabdat sangna shakat nahi.
+    Mi tujhyavar khup khup prem karto,
+    je shabdat sangu shakat nahi.
   </p>
 
   <div className="handwritten-signature">
