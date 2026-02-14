@@ -80,7 +80,7 @@ const SurpriseModal: React.FC<SurpriseModalProps> = ({ isOpen, onClose }) => {
   <div className="handwritten-signature">
     Tujhya sathi nehmich,
     <br />
-    <span className="signature-name">Tujhach / Tujhich ❤️</span>
+    <span className="signature-name">Tujha Vidhata❤️</span>
   </div>
 </div>
 
