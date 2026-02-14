@@ -777,6 +777,7 @@ All colors MUST be HSL.
   opacity: 0;
   transform: translateY(20px);
   transition: all 0.8s ease-out;
+    font-family: inherit;
 }
 
 .handwritten-letter.show {
@@ -821,6 +822,7 @@ All colors MUST be HSL.
 .handwritten-content {
   position: relative;
   z-index: 1;
+    font-family: 'Brush Script MT', cursive;
 }
 
 .handwritten-line {
@@ -841,10 +843,11 @@ All colors MUST be HSL.
 .handwritten-signature {
   text-align: right;
   margin-top: 2rem;
-  font-family: 'Brush Script MT', cursive;
+  
   font-size: 1.5rem;
   color: #c44569;
   animation: handwritingAppear 1s ease-out 3s both;
+  
 }
 
 .signature-name {

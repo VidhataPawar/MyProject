@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 
+
 interface SurpriseModalProps {
   isOpen: boolean;
   onClose: () => void;
@@ -57,28 +58,34 @@ const SurpriseModal: React.FC<SurpriseModalProps> = ({ isOpen, onClose }) => {
             <div className="letter-header">
               <h2 className="handwritten-title">My Dearest Love</h2>
             </div>
-            <div className="handwritten-content">
-              <p className="handwritten-line">
-                Every moment with you feels like magic...
-              </p>
-              <p className="handwritten-line">
-                You are the light that brightens my darkest days,
-              </p>
-              <p className="handwritten-line">
-                the melody that makes my heart sing,
-              </p>
-              <p className="handwritten-line">
-                and the dream I never want to wake up from.
-              </p>
-              <p className="handwritten-line">
-                I love you more than words can express.
-              </p>
-              <div className="handwritten-signature">
-                Forever yours,
-                <br />
-                <span className="signature-name">Your Love</span>
-              </div>
-            </div>
+           <div className="handwritten-content">
+  <p className="handwritten-line">
+    Tujhyasobat ghallela pratyek moment majhyasathi ek sundar swapna aahe...
+  </p>
+  <p className="handwritten-line">
+    Tu majhya andharya divsanmadhe prakash ghenari roshni aahes,
+  </p>
+  <p className="handwritten-line">
+    Tu majhya hrudayat vajnar sundar gaan aahes,
+  </p>
+  <p className="handwritten-line">
+    Ani tu majhya ayushyatil ti swapna aahes,
+    je mala kadhi suddha sampu naye asa watta.
+  </p>
+  <p className="handwritten-line">
+    Mi tujhyavar khup khup prem karto / karte,
+    je shabdat sangna shakat nahi.
+  </p>
+
+  <div className="handwritten-signature">
+    Tujhya sathi nehmich,
+    <br />
+    <span className="signature-name">Tujhach / Tujhich ❤️</span>
+  </div>
+</div>
+
+
+
           </div>
         </div>
 
